@@ -1,0 +1,15 @@
+-*- mode: org; mode: visual-line; -*-
+#+STARTUP: indent
+
+* =nodejs-cljs-starter=
+
+Simple starter for launching Node.js to run ClojureScript with a Figwheel Main REPL.
+
+** Components
+
+We wheel in the following as the base of our coding workflow, alongside the usual Leiningen support:
+
+- [[https://github.com/clojure/core.async]] for channel-based (pseudo-)threading - useful for dealing with Javascript promises and callbacks
+- [[https://github.com/stuartsierra/component]] (accompanied by [[https://github.com/cassiel/lifecycle]]) for good lifecycle management of software components
+- [[https://github.com/binaryage/cljs-oops]] for cleaner manipulation of Javascript object properties and methods
+- [[https://github.com/liquidz/antq]] for Leiningen to check the versions of our dependencies
